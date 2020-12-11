@@ -1,0 +1,9 @@
+.mobile {
+    display:none;
+}
+
+.mobiletext{
+    display:block;
+    position: relative;
+    top: 30%;
+}

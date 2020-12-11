@@ -1,0 +1,55 @@
+@font-face {
+  font-family: gameplay regular;
+  src: url("/web/Gameplay.ttf"); }
+body {
+  max-width: 100vw;
+  background-color: #000000; }
+
+#canvas {
+  position: absolute; }
+
+#background-body {
+  background-image: url(images/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar {
+  opacity: 100%;
+  font-family: gameplay-regular; }
+  .navbar a {
+    color: #E0E4E4; }
+
+.regler {
+  color: #E0E4E4;
+  font-family: gameplay-regular; }
+  .regler h3 {
+    text-decoration: underline; }
+  .regler p {
+    opacity: 90%; }
+
+.jumbotron {
+  font-family: gameplay-regular;
+  opacity: 90%;
+  background-color: #1D1C27; }
+  .jumbotron h4 {
+    color: #E0E4E4; }
+  .jumbotron p {
+    color: #E0E4E4; }
+
+.box {
+  font-family: gameplay-regular;
+  color: #E0E4E4; }
+
+#end {
+  position: relative;
+  top: 120%; }
+
+.profil-text {
+  text-decoration: underline; }
+
+.mobiletext {
+  display: none;
+  font-family: gameplay-regular;
+  color: #E0E4E4; }
+
+/*# sourceMappingURL=style.css.map */

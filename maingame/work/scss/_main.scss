@@ -1,0 +1,65 @@
+@font-face { font-family: gameplay regular; 
+    src: url('/web/Gameplay.ttf'); } 
+body{
+    max-width: 100vw;
+    background-color: $base-bg2;
+}
+#canvas{
+    position: absolute;
+}
+#background-body{
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+  
+   opacity: 100%;
+   font-family: $base-font;
+   a{
+       color: $text-color
+   } 
+}
+.regler{
+    color:$text-color ;
+    font-family: $base-font;
+    h3{
+        text-decoration: underline;
+    }
+    p{
+        opacity: $base-opacity;
+    }
+}
+
+
+.jumbotron{
+    font-family: $base-font;
+    opacity: $base-opacity;
+    background-color: $base-bg;
+    h4 {
+        color: $text-color;
+    }
+    p {
+        color: $text-color;
+    }
+}
+.box{
+    font-family: $base-font;
+    color: $text-color;
+}
+
+#end{
+    position: relative;
+    top: 120%;
+    
+}
+
+.profil-text{
+    text-decoration: underline
+}
+
+.mobiletext{
+    display:none;
+    font-family: $base-font;
+    color: $text-color;
+}
